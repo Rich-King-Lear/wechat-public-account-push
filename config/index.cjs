@@ -19,7 +19,7 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '美小宝',
+      name: '老婆',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ovChz6so-fpW4uXFnEH7Ld-9lHeY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -29,14 +29,11 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '美小宝', year: '1995', date: '08-22',
+          type: '*生日', name: '老婆', year: '1995', date: '08-22',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '美小宝', year: '1995', date: '10-16',
-        },
-        {
-          type: '节日', name: '相识纪念日', year: '2017', date: '09-15',
+          type: '*生日', name: '李总', year: '1993', date: '11-16',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
